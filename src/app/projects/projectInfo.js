@@ -24,7 +24,7 @@ export async function getPostDetails(postId) {
             projectSharingImg: "/images/sharing/projects/taskmate.jpg",
             images: null,
             projectLinks: [
-                { name: "Repository", url: "https://github.com/Spicydark/To-Do-List" }
+                { name: "Repository", url: "https://github.com/SuryaKDev/To-Do-List" }
             ]
         },
 
@@ -49,7 +49,7 @@ export async function getPostDetails(postId) {
             projectSharingImg: "/images/sharing/projects/creasynth.jpg",
             images: null,
             projectLinks: [
-                { name: "Repository", url: "https://github.com/Spicydark/Chat-Bot" }
+                { name: "Repository", url: "https://github.com/SuryaKDev/Chat-Bot" }
             ]
         },
 
@@ -74,7 +74,7 @@ export async function getPostDetails(postId) {
             projectSharingImg: "/images/sharing/projects/ecomflow.jpg",
             images: null,
             projectLinks: [
-                { name: "Repository", url: "https://github.com/Spicydark/E-Commerce" }
+                { name: "Repository", url: "https://github.com/SuryaKDev/E-Commerce" }
             ]
         },
 
@@ -99,7 +99,39 @@ export async function getPostDetails(postId) {
             projectSharingImg: "/images/sharing/projects/resourcehive.jpg",
             images: null,
             projectLinks: [
-                { name: "Repository", url: "https://github.com/Spicydark/Campus_Asset_Manager" }
+                { name: "Repository", url: "https://github.com/SuryaKDev/Campus_Asset_Manager" }
+            ]
+        },
+
+
+        "rideconnect": {
+            "title": "RideConnect",
+            "type": "Intern - Team Projects",
+            "platform": "Web Application",
+            "category": "Ride Sharing Platform",
+            "cat": null,
+            "year": "Nov 2025 - Feb 2026",
+            "tech": [
+                "Java 21",
+                "Spring Boot 3.5.8",
+                "Spring Security",
+                "PostgreSQL",
+                "Redis",
+                "WebSocket",
+                "Thymeleaf",
+                "JWT",
+                "Google Maps API",
+                "Razorpay",
+                "Cloudinary"
+            ],
+            "summary": "Backend services for a ride-sharing platform with secure authentication, ride listings, booking flows, payments, real-time chat, notifications, and scheduled reminders.",
+            "description": "RideConnect is a Spring Boot backend for a ride-sharing platform, providing REST APIs for user management, ride discovery, bookings, trip coordination, payments, reviews, support, and admin workflows. It integrates Google Maps for location services, Razorpay for payment processing, Cloudinary for media handling, and email notifications for onboarding, reminders, and monthly summaries. The stack uses PostgreSQL with JPA, Redis for caching/unread counts, JWT-based security, and WebSocket messaging for in-app chat.",
+            "myRole": "Led a 4-member team to architect a scalable ride-sharing platform, taking ownership of the Spring Boot backend design and complex geospatial routing logic. Engineered a robust hybrid payment gateway and real-time notification system while guiding frontend integration to ensure seamless end-to-end delivery",
+            "logo": null,
+            "projectSharingImg": "/images/sharing/projects/rideconnect.jpg",
+            "images": null,
+            "projectLinks": [
+                { name: "Repository", url: "https://github.com/SuryaKDev/RideConnect-Platform" }
             ]
         },
 
@@ -125,7 +157,7 @@ export async function getPostDetails(postId) {
             projectSharingImg: "/images/sharing/projects/talentnest.jpg",
             images: null,
             projectLinks: [
-                { name: "Repository", url: "https://github.com/Spicydark/Hiring-Platform_Microservice-Application" }
+                { name: "Repository", url: "https://github.com/SuryaKDev/Hiring-Platform_Microservice-Application" }
             ]
         }
 
