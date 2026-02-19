@@ -7,6 +7,8 @@ import "./projects/projects.css"
 // Google Fonts
 import { Poppins, Roboto } from 'next/font/google'
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 // Google Fonts | Font Optimization
 // Font primary
 const poppins = Poppins({
@@ -98,6 +100,7 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.variable} ${roboto.variable}`}>
         <NavbarUi />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
